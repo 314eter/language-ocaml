@@ -116,7 +116,7 @@
             'name': 'punctuation.definition.char.begin.ocamllex'
           '4':
             'name': 'punctuation.definition.char.end.ocamllex'
-        'match': '(\')([^\\\\]|\\\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\\d\\d|[bnrt\'"\\\\]))(\')'
+        'match': '(\')([^\'\\\\]|\\\\(x[a-fA-F0-9][a-fA-F0-9]|[0-2]\\d\\d|o[0-3][0-7][0-7]|[bnrt\'"\\\\ ]))(\')'
         'name': 'constant.character.ocamllex'
       }
     ]

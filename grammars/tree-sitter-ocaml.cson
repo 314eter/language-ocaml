@@ -12,6 +12,8 @@ fileTypes: [
 
 contentRegExp: '^#![ \\t]*/.*\\bocaml\\b'
 
+injectionRegExp: '^ocaml$'
+
 folds: [
   {
     type: [
